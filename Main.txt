@@ -10,47 +10,48 @@ local PlayerMouse = Player:GetMouse()
 
 local redzlib = {
     Themes = {
+       Themes = {
         Cyberpunk = {
             ["Color Hub 1"] = ColorSequence.new({
-                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(10, 0, 20)),
-                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(25, 0, 40)),
-                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(10, 0, 20))
+                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 15, 15)),
+                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(35, 35, 35)),
+                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(15, 15, 15))
             }),
-            ["Color Hub 2"] = Color3.fromRGB(8, 0, 15),
-            ["Color Stroke"] = Color3.fromRGB(120, 0, 200),
-            ["Color Theme"] = Color3.fromRGB(160, 0, 255),
-            ["Color Text"] = Color3.fromRGB(220, 180, 255),
-            ["Color Dark Text"] = Color3.fromRGB(150, 100, 200),
-            ["Color Element"] = Color3.fromRGB(5, 0, 10),
-            ["Color Element Stroke"] = Color3.fromRGB(100, 0, 180)
+            ["Color Hub 2"] = Color3.fromRGB(10, 10, 10),
+            ["Color Stroke"] = Color3.fromRGB(255, 255, 255),
+            ["Color Theme"] = Color3.fromRGB(255, 255, 255),
+            ["Color Text"] = Color3.fromRGB(255, 255, 255),
+            ["Color Dark Text"] = Color3.fromRGB(200, 200, 200),
+            ["Color Element"] = Color3.fromRGB(5, 5, 5),
+            ["Color Element Stroke"] = Color3.fromRGB(255, 255, 255)
         },
         Gothic = {
             ["Color Hub 1"] = ColorSequence.new({
-                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 0, 25)),
-                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 0, 50)),
-                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(15, 0, 25))
+                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(20, 20, 20)),
+                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(45, 45, 45)),
+                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 20, 20))
             }),
-            ["Color Hub 2"] = Color3.fromRGB(10, 0, 18),
-            ["Color Stroke"] = Color3.fromRGB(100, 0, 180),
-            ["Color Theme"] = Color3.fromRGB(140, 0, 230),
-            ["Color Text"] = Color3.fromRGB(210, 170, 250),
-            ["Color Dark Text"] = Color3.fromRGB(130, 80, 190),
-            ["Color Element"] = Color3.fromRGB(8, 0, 15),
-            ["Color Element Stroke"] = Color3.fromRGB(90, 0, 160)
+            ["Color Hub 2"] = Color3.fromRGB(12, 12, 12),
+            ["Color Stroke"] = Color3.fromRGB(255, 255, 255),
+            ["Color Theme"] = Color3.fromRGB(255, 255, 255),
+            ["Color Text"] = Color3.fromRGB(255, 255, 255),
+            ["Color Dark Text"] = Color3.fromRGB(190, 190, 190),
+            ["Color Element"] = Color3.fromRGB(8, 8, 8),
+            ["Color Element Stroke"] = Color3.fromRGB(255, 255, 255)
         },
         DarkPurple = {
             ["Color Hub 1"] = ColorSequence.new({
-                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(20, 0, 30)),
-                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(35, 0, 55)),
-                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 0, 30))
+                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 25, 25)),
+                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(50, 50, 50)),
+                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))
             }),
-            ["Color Hub 2"] = Color3.fromRGB(15, 0, 25),
-            ["Color Stroke"] = Color3.fromRGB(130, 0, 210),
-            ["Color Theme"] = Color3.fromRGB(180, 0, 255),
-            ["Color Text"] = Color3.fromRGB(230, 200, 255),
-            ["Color Dark Text"] = Color3.fromRGB(160, 110, 210),
-            ["Color Element"] = Color3.fromRGB(12, 0, 20),
-            ["Color Element Stroke"] = Color3.fromRGB(110, 0, 190)
+            ["Color Hub 2"] = Color3.fromRGB(15, 15, 15),
+            ["Color Stroke"] = Color3.fromRGB(255, 255, 255),
+            ["Color Theme"] = Color3.fromRGB(255, 255, 255),
+            ["Color Text"] = Color3.fromRGB(255, 255, 255),
+            ["Color Dark Text"] = Color3.fromRGB(180, 180, 180),
+            ["Color Element"] = Color3.fromRGB(10, 10, 10),
+            ["Color Element Stroke"] = Color3.fromRGB(255, 255, 255)
         }
     },
     Info = {Version = "1.2.0"},
